@@ -1,0 +1,70 @@
+/* MEDIA QUERIES */
+
+body {
+    background-color: rebeccapurple;
+  }
+  
+  /*
+  Syntax Example
+  
+  @media (condition) {
+    selector {
+      property: value;
+    }
+  }
+  */
+  
+  @media (max-width: 700px) {
+    body {
+      background-color: cornflowerblue;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    h2 {
+      text-decoration: line-through; 
+    }
+  }
+  
+  @media (orientation: portrait) and (max-width: 400px) {
+    h1 {
+      border: 10px dotted black;
+    }
+  }
+  
+  @media (orientation: portrait) or (max-width: 400px) {
+    h1 {
+      color: white;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    body {
+      background-color: red;
+    }
+  
+    h1 {
+      background-color: rosybrown;
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    body {
+      background-color: aquamarine;
+    }
+  }
+  
+  
